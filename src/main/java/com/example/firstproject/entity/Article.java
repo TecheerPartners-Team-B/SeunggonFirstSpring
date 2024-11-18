@@ -5,6 +5,7 @@ import jakarta.persistence.Entity;
 import jakarta.persistence.GeneratedValue;
 import jakarta.persistence.Id;
 import lombok.AllArgsConstructor;
+import lombok.Getter;
 import lombok.NoArgsConstructor;
 import lombok.ToString;
 
@@ -12,6 +13,7 @@ import lombok.ToString;
 @NoArgsConstructor
 @ToString
 @Entity // jpa에서 제공하는 어노테이션. @Entity가 붙은 클래스를 기반으로 DB 테이블 생성
+@Getter
 public class Article {
     @Id
     @GeneratedValue
