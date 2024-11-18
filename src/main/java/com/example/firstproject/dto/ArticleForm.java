@@ -4,7 +4,7 @@ import com.example.firstproject.entity.Article;
 import lombok.AllArgsConstructor;
 import lombok.ToString;
 
-@AllArgsConstructor
+@AllArgsConstructor // 생성자를 지우면서 추가한 어노테이션
 @ToString
 public class ArticleForm {
     private String title;
